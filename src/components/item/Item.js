@@ -6,7 +6,7 @@ const Item = ({card}) => { //!props.card daolabilr süslüsüz
    
   
   return (
-    <div className='card' onClick={()=>setShowLogo(!showLogo)}>
+    <div className="card" onClick={()=>setShowLogo(!showLogo)}>
        {showLogo ? (
        <div> 
         <img className='card-logo' src={card.img} alt="logo" />
@@ -23,7 +23,8 @@ const Item = ({card}) => { //!props.card daolabilr süslüsüz
             })
         }
 
-    </ul>)}
+    </ul>
+    )}
     </div>
   )
 }
