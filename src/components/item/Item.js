@@ -26,7 +26,7 @@ const Item = ({card}) => { //!props.card daolabilr süslüsüz
     </ul>
     )}
     </div>
-  )
-}
+  );
+};
 
 export default Item
